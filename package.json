@@ -1,16 +1,25 @@
 {
   "name": "use-memorized-value",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "main": "dist/index.js",
   "repository": "git@github.com:meinto/use-memorized-value.git",
   "author": "Tobias Meinhardt <tobias.meinhardt@mailbox.org>",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
+    "test": "jest",
     "prepublish": "yarn build"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-typescript": "^7.12.16",
+    "@testing-library/react-hooks": "^5.0.3",
+    "@types/jest": "^26.0.20",
     "@types/react": "^17.0.2",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "react-dom": "^17.0.1",
+    "ts-jest": "^26.5.1",
     "typescript": "^4.1.5"
   },
   "dependencies": {
