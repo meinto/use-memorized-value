@@ -1,6 +1,6 @@
 {
   "name": "use-memorized-value",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "dist/index.js",
   "repository": "git@github.com:meinto/use-memorized-value.git",
   "author": "Tobias Meinhardt <tobias.meinhardt@mailbox.org>",
